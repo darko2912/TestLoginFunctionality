@@ -30,7 +30,7 @@ public class BaseTest {
 
     @AfterClass
     public void tearDownProcess(){
-        //driver.quit();
+        driver.quit();
     }
 
     public void chooseTheBrowser(String browserName){
