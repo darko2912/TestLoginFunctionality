@@ -1,0 +1,11 @@
+ID,B_03,,
+Summary,Login button doesn't work in firefox browser,,
+Description,"The user is unable to log into the system using the ""Login"" button in the Mozilla Firefox browser. After entering valid credentials (email and password) and clicking the ""Login"" button, nothing happens—the user remains on the same page without any error message or redirection to the next page. The browser indicates that the page is not secure. Additionally, when we attempt to enter the email and password, we receive a warning stating: ""This connection is not secured. Logins entered here could be conpromised.""
+This issue occurs only in the Mozilla Firefox browser, while the ""Login"" button works correctly in other browsers, such as Google Chrome and Microsoft Edge. This indicates a potential compatibility problem or an issue specific to Mozilla Firefox.",,
+Steps to reproduce,Expected result,Actual result,Priority
+1. Open the browser (Mozilla firefox),,,MEDIUM
+2. Go to url http://207.154.213.8/login,,,
+"3. Input valid email in ""Email"" field",,,
+"4. Input valid password in ""Password"" field",,,
+"5. Click on ""Login"" button",The user is successfully redirected to otp validate page and OTP is successfully sent to entered email.,"The user stayed on login page and ""login"" button is not work.
+The browser shows that the URL is not secured.",
