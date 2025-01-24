@@ -1,0 +1,21 @@
+Test Scenario ID,Test Scenarios
+TS01,Verify that the user can login successfully with valid credentials.
+TS02,Verify that the user cannot login with empty fields.
+TS03,Verify that the user cannot login with valid password and empty email field.
+TS04,Verify that the user cannot login with valid email and empty password field.
+TS05,Verify that the user cannot login with valid email and invalid password.
+TS06,Verify that the user cannot login with valid password and invalid email.
+TS07,Verify that the user cannot login with trailing space in email input and valid password.
+TS08,Verify that the user cannot login with leading space in email input and valid password.
+TS09,Verify that the password is hidden by default when typed.
+TS10,Verify that the password becomes visible when clicking show hidden button.
+TS11,Verify that the password becomes again hidden when clicking show hidden button.
+TS12,Verify that the user can login when password is shown.
+TS13,Verify that the veryL long password becomes visible and hidden when clicking show hidden button.
+TS14,Verify that the user can successfully redirected to reset password page and recovery password.
+TS15,Verify that the user cannot reset password with empty email field on reset password page.
+TS16,Verify that the user cannot reset password with unregistered email.
+TS17,Verify that the user cannot reset password with invalid format email.
+TS18,Verify that all elements are visible on the page.
+TS19,Verify that the placeholder text in all fields visible.
+TS20,Verify that the responsiveness and usability of the login page on various browsers.

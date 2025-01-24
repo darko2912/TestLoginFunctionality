@@ -1,0 +1,10 @@
+ID,B_01,,
+Summary,The OTP not delivered to user during login,,
+Description,"The issue occurs when the user enters valid credentials and proceeds to the OTP entry page, but the OTP is not delivered to their email. Additionally, if the user clicks the option to resend the code, the code is still not delivered to their email, preventing the user from continuing the login process. 
+This is a critical issue as it prevents users from accessing their accounts, potentially leading to a poor user experience and lost engagement.",,
+Steps to reproduce,Expected result,Actual result,Priority
+1. Open the browser,,,HIGH
+2. Go to url http://207.154.213.8/login,,,
+"3. Input valid email in ""Email"" field",,,
+"4. Input valid password in ""Password"" field",,,
+"5. Click on ""Login"" button",The user is successfully redirected to otp validate page and OTP is successfully sent to entered email.,"The user is successfully redirected to otp validate page, but the OTP is not delivered to the user's email.",
